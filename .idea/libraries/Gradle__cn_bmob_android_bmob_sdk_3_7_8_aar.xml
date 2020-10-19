@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: cn.bmob.android:bmob-sdk:3.7.8@aar">
+    <CLASSES>
+      <root url="jar://D:/AllTools/develop/.gradle/caches/transforms-2/files-2.1/16ca6d5196f975fc5ead84cce585e899/jetified-bmob-sdk-3.7.8/jars/classes.jar!/" />
+      <root url="file://D:/AllTools/develop/.gradle/caches/transforms-2/files-2.1/16ca6d5196f975fc5ead84cce585e899/jetified-bmob-sdk-3.7.8/res" />
+      <root url="jar://D:/AllTools/develop/.gradle/caches/transforms-2/files-2.1/16ca6d5196f975fc5ead84cce585e899/jetified-bmob-sdk-3.7.8/jars/libs/BmobSDK_3.7.8_20200414.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/AllTools/develop/.gradle/caches/modules-2/files-2.1/cn.bmob.android/bmob-sdk/3.7.8/ba39bf5286a0cab6e2f54358f1992dc6539f7109/bmob-sdk-3.7.8-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://D:/AllTools/develop/.gradle/caches/modules-2/files-2.1/cn.bmob.android/bmob-sdk/3.7.8/be9d0d374cc3549ebd1214794d2d7c0e0eb2d016/bmob-sdk-3.7.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

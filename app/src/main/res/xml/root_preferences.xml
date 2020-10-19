@@ -1,0 +1,44 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/push_notification_title">
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/about_contact">
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:key="@string/accept_invitation_key"
+            app:title="@string/accept_nvitation_title" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/login_header">
+
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:key="@string/remember_password_key"
+            app:title="@string/login_title" />
+
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:dependency="@string/remember_password_key"
+            app:key="@string/auto_login_key"
+            app:summary="@string/auto_login_summary"
+            app:title="@string/auto_login_title" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/dark_header">
+
+        <SwitchPreferenceCompat
+            app:defaultValue="true"
+            app:key="@string/dark_mode_key"
+            app:title="@string/dark_mode_auto" />
+    </PreferenceCategory>
+    <PreferenceCategory app:title="@string/messages_header">
+        <SwitchPreferenceCompat
+            app:defaultValue="false"
+            app:key="@string/push_notification_key"
+            app:title="@string/do_not_Disturb" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

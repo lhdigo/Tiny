@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/baseline_search_white_24"
+        android:title="@string/text_label_search"
+        app:showAsAction="always"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+    <item
+        android:id="@+id/more"
+        android:icon="@drawable/baseline_add_white_24"
+        android:title="@string/text_label_more"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/add_contact"
+                android:icon="@drawable/baseline_group_add_black_24"
+                android:title="@string/text_label_add_contacts"
+                app:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/qr_code_scanner"
+                android:icon="@drawable/baseline_qr_code_scanner_black_24"
+                android:title="@string/text_label_add_from_photo"
+                app:showAsAction="always"/>
+            <item
+                android:id="@+id/color_lens"
+                android:icon="@drawable/baseline_color_lens_black_24"
+                android:title="@string/color_lens_label"
+                app:showAsAction="always"/>
+            <item
+                android:id="@+id/dark_mode"
+                android:icon="@drawable/baseline_brightness_4_black_24"
+                android:title="@string/dark_header"
+                android:visible="false"
+                app:showAsAction="always"/>
+            <item
+                android:id="@+id/light_mode"
+                android:icon="@drawable/baseline_brightness_5_black_24"
+                android:title="@string/light_header"
+                android:visible="false"
+                app:showAsAction="always"/>
+        </menu>
+
+    </item>
+
+</menu>

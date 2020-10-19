@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/firstLetter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/first_letter"
+            android:paddingStart="@dimen/padding"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:textAllCaps="true"
+            tools:text="A" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:elevation="@dimen/card_elevation"
+            app:cardUseCompatPadding="true"
+            android:layout_margin="@dimen/margin"
+            android:foregroundGravity="clip_horizontal"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/selectableItemBackground"
+                android:focusable="true"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/friends_avatar"
+                    android:layout_width="@dimen/image_avatar"
+                    android:layout_height="@dimen/image_avatar"
+                    android:paddingStart="@dimen/padding"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:src="@mipmap/ic_launcher_round" />
+
+                <TextView
+                    android:id="@+id/userName"
+                    style="@style/TextAppearance.AppCompat.Body2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="@dimen/icon_textview_margin"
+                    android:textSize="@dimen/input_label"
+                    tools:text="Admin" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/friends_count"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="friends_count"
+                android:textColor="#BDBDBD"
+                android:layout_gravity="center"
+                android:visibility="invisible"
+                />
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

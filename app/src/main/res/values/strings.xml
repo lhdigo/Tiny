@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Tiny</string>
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short">Sign In</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="username_error">Username is invalid</string>
+    <string name="password_error">Password is invalid</string>
+    <string name="login_fail">Login Fail</string>
+    <string name="PERMISSION_DENIED">PERMISSION DENIED</string>
+    <string name="text_label_conversation">Message</string>
+    <string name="text_label_friends">Friends</string>
+    <string name="text_label_account">Account</string>
+    <string name="text_button_reset">forget password</string>
+    <string name="text_button_register">register</string>
+    <string name="fengexian">|</string>
+    <string name="text_label_logout">Logout</string>
+    <string name="prompt_username_register">Username</string>
+    <string name="prompt_password_register">Password</string>
+    <string name="prompt_password_register_2">Re-enter Password</string>
+    <string name="action_register_in_short">Register</string>
+    <string name="register_failed">Register Fail</string>
+    <string name="password_error_not_equals">password not equals</string>
+    <string name="register_success">Register Success</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="login_header">About Login</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title" translatable="false">Your signature</string>
+    <string name="reply_title" translatable="false">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="login_title">Remember password</string>
+    <string name="attachment_title" translatable="false">Download incoming attachments</string>
+    <string name="attachment_summary_on" translatable="false">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off" translatable="false">Only download attachments when manually requested</string>
+    <string name="auto_login_title">Auto login</string>
+    <string name="auto_login_summary">"Restart the application to take effect  "</string>
+    <string name="remember_password_key" translatable="false">remember_password</string>
+    <string name="auto_login_key" translatable="false">auto_login</string>
+    <string name="push_notification_key" translatable="false">push_notification</string>
+    <string name="push_notification_title">Push Notification</string>
+    <string name="do_not_Disturb">Do Not Disturb</string>
+    <string name="push_notification_summary">Do not disturb after startup, all message notifications will not be received before 6:00 tomorrow.
+</string>
+    <string name="dark_header">Dark Mode</string>
+    <string name="dark_mode_key" translatable="false">dark_mode</string>
+    <string name="dark_mode_auto">Auto</string>
+    <string name="select_manually_key" translatable="false">select_manually</string>
+    <string name="select_manually_title">Select manually</string>
+    <string name="dark_mode_select_key" translatable="false">dark_mode_select</string>
+    <string name="dark_mode_summary">开启后，将跟随系统打开或关闭深色模式</string>
+    <string name="text_label_search">Search</string>
+    <string name="text_label_more">More</string>
+    <string name="text_label_add_contacts">Add Contacts</string>
+    <string name="text_label_add_from_photo">Scan</string>
+    <string name="text_label_add_contact">Add</string>
+    <string name="about_contact">About contacts</string>
+    <string name="accept_invitation_key" translatable="false">acceptInvitation</string>
+    <string name="accept_nvitation_title">Accept Invitation</string>
+    <string name="query_hint_label">Username</string>
+    <string name="add_contact_alert_title">Reason</string>
+    <string name="cancel">Cencel</string>
+    <string name="text_label_add_contact_apply">Contact Apply</string>
+    <string name="text_label_add_contact_body_label">%s请求添加您为好友</string>
+    <string name="delete">Delete</string>
+    <string name="color_lens_label">Theme Color</string>
+    <string name="description">桂林理工大学是中央与地方共建、以广西壮族自治区管理为主的高校。学校源于1956年原国家重工业部在广西组建的桂林地质学校，历经五改归属、十易校名的发展历程，其中，1978年更名为桂林冶金地质学院，1993年更名为桂林工学院，2009年正式更名为桂林理工大学。</string>
+    <string name="label_dynamic">Dynamic</string>
+    <string name="label_game">Game</string>
+    <string name="label_music">Music</string>
+    <string name="label_read">Read</string>
+    <string name="label_sport">Sprots</string>
+    <string name="Setting">Setting</string>
+    <string name="about">About</string>
+    <string name="copy_right">Copyrights © %1$d</string>
+    <string name="button_send">Send</string>
+    <string name="sync_header">Sync</string>
+    <string name="sync_title">Sync</string>
+    <string name="text_label_search_res">Search</string>
+    <string name="light_header">日间模式</string>
+</resources>
